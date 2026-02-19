@@ -1,5 +1,3 @@
-*This project has been created as part of the 42 curriculum by <mforest->,<lviravon>.*
-
 # ft_irc
 
 ## Description
@@ -60,4 +58,3 @@ Run the server by specifying a port (usually 6667) and a password for client con
 * **Multiplexing**: Utilized `poll()` for managing multiple file descriptors to ensure high responsiveness and efficiency.
 * **Non-blocking Sockets**: All client sockets are set to `O_NONBLOCK` to prevent the server from hanging during slow read/write operations.
 * **STL Containers**: Heavy use of `std::map` and `std::vector` to efficiently manage the relationships between clients and channels.
-# ft_irc
