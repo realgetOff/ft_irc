@@ -17,6 +17,10 @@ The server is compatible with official IRC clients (like HexChat, AdiIRC, or Irs
     - `l`: Set user limit for the channel.
 - **Private Messaging**: Direct messages between users and notices.
 - **Blackjack Bot**: A fully integrated game bot with IRC color formatting and score tracking.
+```bash
+make bot
+./srcs/bot/bot 127.0.0.1 <port> <password>
+```
 
 ## Instructions
 
@@ -24,7 +28,6 @@ The server is compatible with official IRC clients (like HexChat, AdiIRC, or Irs
 The project uses a Makefile and must be compiled on a Unix-based system.
 ```bash
 make
-
 ```
 
 ### Execution
@@ -42,6 +45,13 @@ Run the server by specifying a port (usually 6667) and a password for client con
 2. Create a new network with the address `127.0.0.1` and the chosen port.
 3. Enter the password you used to launch the server.
 4. Join a channel using `/join #chan_name`.
+
+#### Bot Usage
+1. Open an IRC client (e.g., **HexChat**).
+2. Create a new network with the address `127.0.0.1` and the chosen port.
+3. Enter the password you used to launch the server.
+4. Join a channel using `/join #bot`.
+5. !ping or !blackjack > (!hit or !stand)
 
 ## Resources
 
