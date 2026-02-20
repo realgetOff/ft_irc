@@ -1,4 +1,4 @@
-# ft_irc
+![ft_irc](https://github.com/realgetOff/main/blob/main/Header/ft_irc.png)
 
 ## Description
 **ft_irc** is a custom Internet Relay Chat (IRC) server written in **C++98**. The project aims to recreate a functional chat server capable of handling multiple simultaneous connections without crashing or blocking. It implements a non-blocking network architecture using I/O multiplexing with `poll()`, allowing it to serve multiple clients across various channels in real-time.
